@@ -19,3 +19,8 @@ allprojects {
   dependencies {
 	        implementation 'com.github.im-ranu:SimpleToastLibrary:Tag'
 	}
+
+
+then add
+
+SimpleToast.s(Context context, String Message);
