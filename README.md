@@ -6,7 +6,7 @@ Implementation Simple Toast in your Application
 
 Add it in your root build.gradle at the end of repositories:
 
-<p>allprojects {
+<p>allprojects {<br>
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
