@@ -2,25 +2,25 @@
 Implementation Simple Toast in your Application
 
 
-Step to integrate
+# Step to integrate
 
 Add it in your root build.gradle at the end of repositories:
 
-allprojects {
+<p>allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
+ </p> 
   
-  
-  Add the dependency
+ # Add the dependency
   
   dependencies {
 	        implementation 'com.github.im-ranu:SimpleToastLibrary:Tag'
 	}
 
 
-then add
+# How to use it.
 
 SimpleToast.s(Context context, String Message);
